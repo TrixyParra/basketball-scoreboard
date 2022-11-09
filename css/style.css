@@ -1,3 +1,16 @@
+/** Colors Used **/ 
+/*
+rgba(137, 43, 226, 0.87) 
+#000 
+#fff 
+rgb(255, 183, 0) 
+blueviolet 
+yellow 
+darkorange 
+rgb(248, 153, 37) 
+rgba(255, 255, 255, 0.596) 
+*/ 
+
 * {
     box-sizing: border-box; 
 } 
@@ -32,6 +45,11 @@ body {
     width: 150px; 
 } 
 
+h2 {
+    font-weight: bolder; 
+    text-align: center; 
+} 
+
 #home-score, #guest-score {
     background-color: #000; 
     color: rgb(255, 183, 0); 
@@ -45,6 +63,7 @@ button {
     color: #fff; 
     font-size: 18px; 
     margin: 20px 3px; 
+    cursor: pointer; 
 } 
 /* End of Scoreboard */ 
 
@@ -58,6 +77,10 @@ button {
     background-color: darkorange; 
     padding: 8px; 
     margin-bottom: 74px; 
+} 
+
+.new-game button:hover {
+    background-color: rgb(248, 153, 37); 
 } 
 /* End of New Game Button */ 
 
