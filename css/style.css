@@ -29,13 +29,13 @@ body {
 .home, .guest {
     margin: 5px; 
     padding: 5px; 
+    width: 150px; 
 } 
 
 #home-score, #guest-score {
     background-color: #000; 
     color: rgb(255, 183, 0); 
     font-size: 70px; 
-    /* height: 80px;  */
     padding: 10px; 
 } 
 
@@ -44,7 +44,7 @@ button {
     border-color: yellow; 
     color: #fff; 
     font-size: 18px; 
-    margin: 20px auto 10px auto; 
+    margin: 20px 3px; 
 } 
 /* End of Scoreboard */ 
 
